@@ -1,0 +1,80 @@
+.A{
+    background-color: red;
+    color: black;
+    font-size: xx-large;
+    
+    
+}
+.B{
+    background-color:white;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-style: italic;
+}
+.C{
+    background-color: darkgray;
+    color: red;
+    font-size: xx-large;
+    text-align: center;
+
+}
+.D{
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    border: 5px solid black;
+    margin-bottom:50px ;
+}
+.E{
+    background-color: darkgray;
+    color: red;
+    font-size: xx-large;
+    text-align: center;
+    
+
+}
+.F{
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    border: 5px solid black;
+    margin-bottom: 50px;
+}
+.G{
+    background-color: red;
+    color:black;
+    font-size: xx-large;
+    text-align: left;
+    
+}
+.H{background-color: white;
+    font-size: x-large;
+    font-style: italic;
+
+
+}
+.left box{
+    float: left;
+    background-color: white;
+    width: 25%;
+    height: 280px;
+
+}
+.middle box{
+    float: middle;
+    background-color: white;
+    width: 50%;
+    height: 280px;
+}
+.right box{
+    float: right;
+    background-color: white;
+    width: 25%;
+    height: 280px;
+}
+
+.headings{
+    display: flex;
+    justify-content: space-around;
+}
+
