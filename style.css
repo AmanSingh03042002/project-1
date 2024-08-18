@@ -1,80 +1,60 @@
-.A{
-    background-color: red;
-    color: black;
-    font-size: xx-large;
-    
-    
-}
-.B{
-    background-color:white;
-    color: rgb(0, 0, 0);
-    font-size: x-large;
-    font-style: italic;
-}
-.C{
-    background-color: darkgray;
-    color: red;
-    font-size: xx-large;
-    text-align: center;
-
-}
-.D{
-    background-color: white;
-    color: black;
-    font-size: x-large;
-    border: 5px solid black;
-    margin-bottom:50px ;
-}
-.E{
-    background-color: darkgray;
-    color: red;
-    font-size: xx-large;
-    text-align: center;
-    
-
-}
-.F{
-    background-color: white;
-    color: black;
-    font-size: x-large;
-    border: 5px solid black;
-    margin-bottom: 50px;
-}
-.G{
-    background-color: red;
-    color:black;
-    font-size: xx-large;
-    text-align: left;
-    
-}
-.H{background-color: white;
-    font-size: x-large;
-    font-style: italic;
-
-
-}
-.left box{
-    float: left;
-    background-color: white;
-    width: 25%;
-    height: 280px;
-
-}
-.middle box{
-    float: middle;
-    background-color: white;
-    width: 50%;
-    height: 280px;
-}
-.right box{
-    float: right;
-    background-color: white;
-    width: 25%;
-    height: 280px;
-}
-
-.headings{
+body{
+    margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(136, 125, 125);
 }
 
+
+
+.container{
+    background-color: rgb(59, 57, 62);
+    border-radius: 15px;
+    max-width: 500px;
+    border: 5px solid rgb(183, 35, 35);
+}
+#result{
+    border-radius: 12px ;
+    width:460px;
+    padding:20px;
+    text-align: left;
+    border: none;
+    background-color: lightgray;
+    color: black;
+    font-size: x-large;
+}
+
+#buttons{
+    display: grid; /* display: grid; is used to create a grid layout */
+    grid-template-columns: repeat(4, 1fr);    /* 4 columns of equal width   fr works as a fraction and is used to set the width of each column*/
+    gap: 10px;
+    padding: 20px;
+}
+  
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color:black ;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color:grey;
+}
+
+.operator{
+background-color: rgb(131, 37, 37);
+
+}
+.operator:hover{
+    background-color: rgb(207, 64, 64);
+}
